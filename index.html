@@ -60,71 +60,161 @@
         >
       </div>
     </nav>
+    <!--Menu 2-->
+    <nav class="menu2">
+      <div>
+        <img
+          style="width: 30px; margin-left: -10px"
+          src="./images/nube.png"
+          alt="logo"
+        />
+      </div>
+      <div>
+        <a href="#"
+          ><img src="./images/space_dashboard.png" alt="iconodash"
+        /></a>
+      </div>
+      <div>
+        <a href="#"
+          ><img
+            style="margin-right: 10px"
+            src="./images/calendar_month.png"
+            alt="iconodash"
+        /></a>
+      </div>
+      <div>
+        <a href="#"
+          ><img
+            style="margin-right: 10px"
+            src="./images/business_center.png"
+            alt="iconodash"
+        /></a>
+      </div>
+      <div>
+        <a href="#"
+          ><img
+            style="margin-right: 10px"
+            src="./images/lock.png"
+            alt="iconodash"
+        /></a>
+      </div>
+    </nav>
 
     <div class="principal">
-        <header>
-          <img src="./images/menu.png" alt="menu" />
-          <div id="busca">
-            <img
-              style="margin-right: 10px"
-              src="./images/search.png"
-              alt="buscar"
-            /><input type="text" />
-          </div>
-        </header>
-        <div id="titulo"><h2>Dashboards</h2></div>
-        <main>
-          <!--Ciudad uno-->
-          <section>
-            <div class="tempcomple">
-              <div>
-                <img src="./images/soleado.png" alt="sol" />
-                <h2 id="temperatura"></h2>
-                <br />
-              </div>
+      <header>
+        <img src="./images/menu.png" alt="menu" />
+        <div id="busca">
+          <img
+            style="margin-right: 10px"
+            src="./images/search.png"
+            alt="buscar"
+          /><input type="text" />
+        </div>
+      </header>
+      <div id="titulo"><h2>Dashboards</h2></div>
+      <main>
+        <!--Ciudad uno-->
+        <section>
+          <div class="tempcomple">
+            <div>
+              <img src="./images/soleado.png" alt="sol" />
+              <h2 id="temperatura"></h2>
               <br />
-              <p style="font-size: 28px"><b>Guadalajara</b></p>
-              <p id="fecha" style="font-size: 22px">fecha</p>
             </div>
-  
-            <div class="componentesPrin">
-              <div class="componentes">
-                <img style="width: 50px" src="./images/viento.png" alt="viento" />
-                <div>
-                  <h3 id="viento">Dato</h3>
-                  <p>Viento</p>
-                </div>
-              </div>
-              <div class="componentes">
-                <img
-                  style="width: 50px"
-                  src="./images/humedad.png"
-                  alt="viento"
-                />
-                <div>
-                  <h3 id="humedad">Dato</h3>
-                  <p>Humedad</p>
-                </div>
-              </div>
-              <div class="componentes">
-                <img
-                  style="width: 50px"
-                  src="./images/sensacion.png"
-                  alt="viento"
-                />
-                <div>
-                  <h3 id="sensaTermica">Dato</h3>
-                  <p>Sensación térmica</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="grafica">
-              <canvas class="graf" id="myChart"></canvas>
-            </div>
-          </section>
+            <br />
+            <p style="font-size: 28px"><b>Guadalajara</b></p>
+            <p id="fecha" style="font-size: 22px">fecha</p>
+          </div>
 
-     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+          <div class="componentesPrin">
+            <div class="componentes">
+              <img style="width: 50px" src="./images/viento.png" alt="viento" />
+              <div>
+                <h3 id="viento">Dato</h3>
+                <p>Viento</p>
+              </div>
+            </div>
+            <div class="componentes">
+              <img
+                style="width: 50px"
+                src="./images/humedad.png"
+                alt="viento"
+              />
+              <div>
+                <h3 id="humedad">Dato</h3>
+                <p>Humedad</p>
+              </div>
+            </div>
+            <div class="componentes">
+              <img
+                style="width: 50px"
+                src="./images/sensacion.png"
+                alt="viento"
+              />
+              <div>
+                <h3 id="sensaTermica">Dato</h3>
+                <p>Sensación térmica</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grafica">
+            <canvas class="graf" id="myChart"></canvas>
+          </div>
+        </section>
+        <!--Segunda ciudad-->
+        <section>
+          <div class="tempcomple">
+            <div>
+              <img src="./images/lluvioso.png" alt="sol" />
+              <h2 id="temperaturaDos"></h2>
+              <br />
+            </div>
+            <br />
+            <p style="font-size: 28px"><b>Colombia</b></p>
+            <p id="fecha" style="font-size: 22px">fecha</p>
+          </div>
+
+          <div class="componentesPrin">
+            <div class="componentes">
+              <img style="width: 50px" src="./images/viento.png" alt="viento" />
+              <div>
+                <h3 id="vientoDos">Dato</h3>
+                <p>Viento</p>
+              </div>
+            </div>
+            <div class="componentes">
+              <img
+                style="width: 50px"
+                src="./images/humedad.png"
+                alt="viento"
+              />
+              <div>
+                <h3 id="humedadDos">Dato</h3>
+                <p>Humedad</p>
+              </div>
+            </div>
+            <div class="componentes">
+              <img
+                style="width: 50px"
+                src="./images/sensacion.png"
+                alt="viento"
+              />
+              <div>
+                <h3 id="sensaTermicaDos">Dato</h3>
+                <p>Sensación térmica</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="grafica">
+            <canvas class="graf" id="myChartDos"></canvas>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/customParseFormat.js"></script>
     <script>
       dayjs.extend(window.dayjs_plugin_customParseFormat);

@@ -197,3 +197,92 @@ hr {
 .componentes div p {
   font-size: 18px;
 }
+
+@media screen and (min-width: 800px) {
+  .menu2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .menu1 {
+    display: none;
+  }
+  .ocultar {
+    /* visibility: hidden;*/
+    display: none;
+  }
+  .menu2 {
+    display: content;
+  }
+  html {
+    font-family: "Dosis", sans-serif;
+    color: #ffffff;
+    background: linear-gradient(0deg, #04162e, #092549);
+    height: auto;
+  }
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  nav {
+    max-width: 50px;
+    min-width: 40px;
+    padding: 20px auto 40px;
+  }
+  nav div {
+    width: 30px;
+    padding: 0px;
+    margin: 0px auto;
+  }
+  #titulo {
+    height: 50px;
+  }
+  .principal {
+    padding: 20px 20px;
+    width: 90%;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .tempcomple {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    gap: 0px;
+  }
+  .tempcomple img {
+    width: 80px;
+  }
+  .tempcomple div {
+    height: 50%;
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .componentesPrin {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .componentes {
+    height: 30%;
+  }
+  .grafica {
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    background-color: #ffffff30;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

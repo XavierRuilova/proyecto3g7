@@ -72,7 +72,7 @@ function globalDos(result) {
     },
   };
   new Chart(grafica, config).catch((error) => {
-    console.log("El pais no existe");
+    console.log("El pais no está registrado");
   });
 }
 

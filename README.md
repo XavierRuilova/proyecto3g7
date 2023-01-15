@@ -7,3 +7,8 @@ Para cada país se presenta la siguiente información:
 -Porcentaje de humedad
 -Sensación térmica 
 - Proyección de la temperatura para los siguientes 5 días.
+ASIGNACIONES: 
+Yoel: grafica de proyecciones del clima y html 
+Astrid: funciones de consulta a la API con promesas y llamado de datos en el dashboard
+Ruben: edicion de codigo html. 
+Xavier: creacion de funciones genericas, importacion y exportacion de funciones. 
